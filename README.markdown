@@ -1,7 +1,7 @@
 #ABOUT
 
 This repository is here as a maven reposity. 
-##Publish
+###Publish
 To publish to this maven repository, do the following
 
 In your build.sbt file:
@@ -26,7 +26,7 @@ Then commit:
     git commit -m 'publish something'
     git push origin master
   
-##USAGE
+###Usage
 To get artifacts from the maven repository, add to your build.sbt file:
 
     resolvers += "wml-repo" at "http://wml.github.com/maven/"
