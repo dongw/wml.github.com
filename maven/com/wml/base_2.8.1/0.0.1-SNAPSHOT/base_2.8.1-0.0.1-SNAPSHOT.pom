@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wml</groupId>
-    <artifactId>base2_2.8.1</artifactId>
+    <artifactId>base_2.8.1</artifactId>
     <packaging>jar</packaging>
-    <description>base2</description>
-    <version>2.1.8-SNAPSHOT</version>
-    <name>base2</name>
+    <description>base</description>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>base</name>
     <organization>
         <name>com.wml</name>
     </organization>
