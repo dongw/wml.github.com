@@ -48,12 +48,6 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.twitter</groupId>
-            <artifactId>zookeeper-client</artifactId>
-            <version>2.0.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>org.scalaj</groupId>
             <artifactId>scalaj-collection_2.8.1</artifactId>
             <version>1.2</version>
@@ -74,15 +68,39 @@
     </dependencies>
     <repositories>
         <repository>
-            <id>yunrangrepo</id>
-            <name>yunrang-repo</name>
-            <url>http://dev.yunrang.com/nexus/content/groups/public2/</url>
+            <id>twitter</id>
+            <name>twitter</name>
+            <url>http://maven.twttr.com/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>typesafe</id>
+            <name>typesafe</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>wml</id>
+            <name>wml</name>
+            <url>http://wml.github.com/maven/</url>
             <layout>default</layout>
         </repository>
         <repository>
             <id>yunrangrepo</id>
             <name>yunrang-repo</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>snapshots</id>
+            <name>snapshots</name>
+            <url>http://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>releases</id>
+            <name>releases</name>
+            <url>http://oss.sonatype.org/content/repositories/releases/</url>
             <layout>default</layout>
         </repository>
         <repository>
